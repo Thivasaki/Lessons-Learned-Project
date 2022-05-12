@@ -1,21 +1,61 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
 }
 
 #cabecalho {
   background-color: aquamarine;
   position: fixed;
   top: 0px;
+  font-size: 30px;
+  color: blue;
 }
 
 #minha_foto {
   height: 100px;
+  position: fixed;
+  border: 20px solid blue;
+  top: 200px;
+  left: 1000px;
 }
 
 table, th, td {
   border: 1px solid;
 }
 
+section {
+  line-height: 30px;
+  display: block;
+}
+
+ul {
+  float: left;
+}
+
+ol {
+  float: right;
+}
+
+article {
+  width: 45%;
+  display: block;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+
+}
+
 table {
   width: 50%;
+  margin: 100px 30px 40px ;
+}
+
+th, td {
+  padding: 20px;
+
 }
