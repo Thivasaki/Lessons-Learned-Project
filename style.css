@@ -15,6 +15,13 @@ body {
   z-index: 1;
 }
 
+nav {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+
 nav ul{
   background-color: yellow; 
   list-style-type: none;
@@ -29,13 +36,18 @@ nav li{
   display: inline-block;
   font-size: 20px;
   padding: 20px;
+  padding-right: 100px;
+}
+
+main {
+  padding-top: 155px;
 }
 
 #minha_foto {
   height: 400px;
   border-radius: 10%;
   top: 300px;
-  left: 5%;
+  left: 10%;
   position: absolute;
 }
 
@@ -71,13 +83,17 @@ text-align: center;
 
 .tabelas-listas {
   border: 5px solid black;
-  text-align: center;
   padding-bottom: 60px;
 }
 
-.lista {
+.lista, .tabelas-listas h2 {
   display: block;
   padding-left: 50%;
+}
+
+.tabelas-listas h2 {
+  text-align: center;
+  padding-left: 40%;
 }
 
 #licoes_aprendidas, #licoes_a_aprender{
@@ -91,7 +107,7 @@ table, th, td {
 
 table {
   width: 50%;
-  margin: 100px 30px 40px ;
+  margin: 100px 30px 40px;
   margin-left: 46%;
 }
 
@@ -102,7 +118,10 @@ th, td {
 footer {
   background-color: aquamarine;
   padding: 20px;
-  padding-left: 10%
+  padding-left: 10%;
+  position: absolute;
+  left: 0px;
+  right: 0px;
 }
 
 footer p , footer a {
